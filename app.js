@@ -1,5 +1,5 @@
 let listaSorteados = []
-let numeroLimite = 10;
+let numeroLimite = 25;
 let numeroSecreto = gerarNumeroAleatorio();
 let versaoJogo = 1
 let tentativas = 1
@@ -67,7 +67,7 @@ function limparCampo(){
 }
 
 function reiniciarJogo() {
-    numeroLimite += 100;
+    numeroLimite += 50;
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
     tentativas = 1;
